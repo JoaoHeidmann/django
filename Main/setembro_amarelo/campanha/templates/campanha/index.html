@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setembro Amarelo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Setembro Amarelo - Prevenção ao Suicídio</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'index' %}">Início</a></li>
+        <li><a href="{% url 'sobre' %}">Sobre</a></li>
+        <li><a href="{% url 'campanha' %}">A Campanha</a></li>
+        <li><a href="{% url 'depoimentos' %}">Depoimentos</a></li>
+        <li><a href="{% url 'contatos' %}">Contatos</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Bem-vindo ao Setembro Amarelo</h2>
+    <p>Setembro é o mês de conscientização sobre a prevenção ao suicídio. Este é um período para refletir sobre a importância de cuidar da saúde mental e oferecer apoio a quem precisa. Estamos aqui para informar, acolher e ajudar, promovendo uma maior compreensão e empatia. Juntos, podemos fazer a diferença e proporcionar a assistência necessária para aqueles que estão enfrentando dificuldades emocionais.</p>
+</div>
+
+<div class="foto">
+    <img src="https://blog.vhita.com.br/wp-content/uploads/2020/07/campanha-setembro-amarelo.jpg" width="500px" height="300px">
+</div>
+
+<footer>
+    <p>© 2024 Setembro Amarelo - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Campanha - Setembro Amarelo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Setembro Amarelo - A Campanha</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'index' %}">Início</a></li>
+        <li><a href="{% url 'sobre' %}">Sobre</a></li>
+        <li><a href="{% url 'campanha' %}">A Campanha</a></li>
+        <li><a href="{% url 'depoimentos' %}">Depoimentos</a></li>
+        <li><a href="{% url 'contatos' %}">Contatos</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>A Campanha</h2>
+    <p>Como a Campanha Funciona:</p>
+    <p>Durante o mês de setembro, diversas ações são realizadas para engajar a comunidade e promover o debate sobre a saúde mental. Entre as atividades típicas estão:</p>
+    <ul>
+        <li><strong>Eventos e Palestras:</strong> Seminários, workshops e eventos educativos são organizados para disseminar informações sobre prevenção ao suicídio e cuidados com a saúde mental.</li>
+        <li><strong>Campanhas de Mídia:</strong> Utilização de mídias sociais, rádio e televisão para promover mensagens de apoio, informações educativas e depoimentos de pessoas que superaram desafios emocionais.</li>
+        <li><strong>Atividades de Conscientização:</strong> Ações visuais como a iluminação de monumentos em amarelo e a distribuição de materiais informativos ajudam a chamar a atenção para a causa.</li>
+    </ul>
+
+    <p><strong>Importância da Campanha:</strong> O Setembro Amarelo é fundamental para criar uma cultura de prevenção e cuidado. Ao abordar o suicídio e os problemas de saúde mental de forma aberta, a campanha ajuda a salvar vidas e a promover o bem-estar emocional da população. O suporte social e o acolhimento adequado podem fazer uma diferença significativa na vida de alguém que está lutando com pensamentos suicidas ou problemas mentais.</p>
+
+    <p><strong>Como Você Pode Contribuir:</strong></p>
+    <ul>
+        <li><strong>Espalhe a Palavra:</strong> Compartilhe informações sobre a campanha e discuta abertamente sobre a saúde mental com amigos e familiares.</li>
+        <li><strong>Participe de Eventos:</strong> Engaje-se nas atividades promovidas pela campanha e apoie iniciativas locais de prevenção.</li>
+        <li><strong>Busque Ajuda:</strong> Se você ou alguém que você conhece está passando por dificuldades, procure ajuda profissional. Existem muitos recursos disponíveis, e buscar apoio é um passo importante para o bem-estar.</li>
+    </ul>
+</div>
+
+<footer>
+    <p>© 2024 Setembro Amarelo - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

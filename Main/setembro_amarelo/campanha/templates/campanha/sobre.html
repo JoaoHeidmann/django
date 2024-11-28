@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Setembro Amarelo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Setembro Amarelo - Sobre</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'index' %}">Início</a></li>
+        <li><a href="{% url 'sobre' %}">Sobre</a></li>
+        <li><a href="{% url 'campanha' %}">A Campanha</a></li>
+        <li><a href="{% url 'depoimentos' %}">Depoimentos</a></li>
+        <li><a href="{% url 'contatos' %}">Contatos</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>O que é o Setembro Amarelo?</h2>
+    <p>
+        O Setembro Amarelo é uma campanha nacional que ocorre todos os anos no mês de setembro com o objetivo de promover a prevenção ao suicídio e conscientizar a sociedade sobre a importância da saúde mental. A campanha foi criada em 2015 no Brasil, inspirada em movimentos internacionais de prevenção ao suicídio, e se tornou uma das principais iniciativas no país voltadas para o tema.
+    </p>
+
+    <h3>Objetivos da Campanha</h3>
+    <p>Conscientização e Informação: O Setembro Amarelo busca educar e informar a população sobre a importância da saúde mental e a prevenção do suicídio. Muitas vezes, o suicídio é um tema cercado de tabus e estigmas, e a campanha procura desmistificar o assunto e encorajar as pessoas a falar sobre suas dificuldades.</p>
+    
+    <p>Redução do Estigma: A campanha visa reduzir o estigma associado aos transtornos mentais e ao comportamento suicida. Através de palestras, workshops, e materiais educativos, a campanha promove uma abordagem mais aberta e compreensiva sobre esses temas.</p>
+    
+    <p>Apoio e Recursos: O Setembro Amarelo oferece suporte às pessoas que enfrentam dificuldades emocionais e psicológicas. A campanha orienta sobre como buscar ajuda, destacando a importância do acompanhamento profissional e a disponibilidade de serviços de apoio emocional e psicológico.</p>
+    
+    <p>Prevenção: Ao promover discussões e criar um ambiente mais acolhedor para aqueles que estão em sofrimento, a campanha contribui para a redução dos índices de suicídio. Ela estimula a identificação precoce de sinais de alerta e a intervenção oportuna.</p>
+</div>
+
+<footer>
+    <p>© 

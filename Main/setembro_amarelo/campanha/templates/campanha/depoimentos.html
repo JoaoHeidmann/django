@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - Setembro Amarelo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+
+<header>
+    <h1>Setembro Amarelo - Depoimentos</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="{% url 'index' %}">Início</a></li>
+        <li><a href="{% url 'sobre' %}">Sobre</a></li>
+        <li><a href="{% url 'campanha' %}">A Campanha</a></li>
+        <li><a href="{% url 'depoimentos' %}">Depoimentos</a></li>
+        <li><a href="{% url 'contatos' %}">Contatos</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h2>Depoimentos</h2>
+    <p>"Encontrar alguém para ouvir e entender o que eu estava passando fez toda a diferença. Durante anos, me senti sozinho com meus pensamentos, até que finalmente busquei ajuda e descobri o alívio que tanto precisava."</p>
+
+    <p>"Compartilhar meus sentimentos foi um passo assustador, mas essencial. Por muito tempo, carreguei um peso imenso sem falar sobre isso. Hoje, sinto-me mais leve e apoiado, e isso me deu força para enfrentar novos desafios."</p>
+        
+    <p>"A jornada de falar sobre minhas emoções foi difícil, mas gratificante. Antes, o silêncio e o isolamento dominavam minha vida. Com o apoio de pessoas que se importavam, consegui encontrar um caminho para a cura e a esperança."</p>
+        
+    <p>"Eu temia que ao abrir meu coração, estaria colocando um fardo sobre os outros. No entanto, ao compartilhar minhas lutas, encontrei uma comunidade que me acolheu e me ajudou a encontrar a força para seguir em frente."</p>
+        
+    <p>"Durante anos, o medo de ser julgado me impediu de falar sobre o que sentia. Mas, ao finalmente me abrir para um profissional e para meus amigos, percebi que a compreensão e o apoio estavam muito mais próximos do que eu imaginava."</p>
+</div>
+
+<footer>
+    <p>© 2024 Setembro Amarelo - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
